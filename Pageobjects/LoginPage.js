@@ -12,6 +12,7 @@ class LoginPage{
         await userName.fill(Username)
         await password.fill(Password)
         await signInBtn.click()
+        console.log('test commit')
 
     }
      
